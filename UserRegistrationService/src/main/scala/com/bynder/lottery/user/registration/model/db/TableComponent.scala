@@ -1,10 +1,10 @@
-package com.bynder.lottery.user.registrations.model.db
+package com.bynder.lottery.user.registration.model.db
 
 import slick.lifted.ProvenShape
 import slick.jdbc.H2Profile.api._
-import com.bynder.lottery.user.registrations.model.entity.User
-import com.bynder.lottery.user.registrations.model.entity.Role
-import com.bynder.lottery.user.registrations.model.entity.RoleType
+import com.bynder.lottery.user.registration.model.entity.User
+import com.bynder.lottery.user.registration.model.entity.Role
+import com.bynder.lottery.user.registration.model.entity.RoleType
 
 class UserTable(tag: Tag) extends Table[User](tag, None, "Users") {
   

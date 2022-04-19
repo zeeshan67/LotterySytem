@@ -1,12 +1,12 @@
-package com.bynder.lottery.user.registrations.model.db
+package com.bynder.lottery.user.registration.model.db
 
 
 import slick.jdbc.JdbcBackend.Database
 import slick.jdbc.H2Profile.api._
 
 import scala.concurrent.Future
-import com.bynder.lottery.user.registrations.model.entity.User
-import com.bynder.lottery.user.registrations.model.entity.Role
+import com.bynder.lottery.user.registration.model.entity.User
+import com.bynder.lottery.user.registration.model.entity.Role
 import org.mindrot.jbcrypt.BCrypt
 import scala.concurrent._
 import ExecutionContext.Implicits.global

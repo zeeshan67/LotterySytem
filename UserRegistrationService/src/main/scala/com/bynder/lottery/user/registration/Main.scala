@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit
 import akka.http.scaladsl.Http
 import com.bynder.lottery.user.registration.routes.UserRegistrationRoutes
 import org.mindrot.jbcrypt.BCrypt
-import com.bynder.lottery.user.registrations.model.db.Schema
-import com.bynder.lottery.user.registrations.utils.Logging
+import com.bynder.lottery.user.registration.model.db.Schema
+import com.bynder.lottery.user.registration.utils.Logging
 
 object Main extends App with Logging{
  

@@ -1,12 +1,12 @@
-package com.bynder.lottery.user.registrations.model.db
+package com.bynder.lottery.user.registration.model.db
 
 import slick.jdbc.H2Profile.api._
 import slick.lifted.TableQuery
 
 import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
-import com.bynder.lottery.user.registrations.model.entity.User
-import com.bynder.lottery.user.registrations.model.entity.Role
+import com.bynder.lottery.user.registration.model.entity.User
+import com.bynder.lottery.user.registration.model.entity.Role
 import scala.util.Success
 import scala.concurrent._
 import ExecutionContext.Implicits.global

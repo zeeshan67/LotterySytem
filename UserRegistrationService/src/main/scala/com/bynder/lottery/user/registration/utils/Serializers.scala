@@ -1,4 +1,4 @@
-package com.bynder.lottery.user.registrations.utils
+package com.bynder.lottery.user.registration.utils
 
 import de.heikoseeberger.akkahttpplayjson.PlayJsonSupport
 import org.json4s.native.Serialization

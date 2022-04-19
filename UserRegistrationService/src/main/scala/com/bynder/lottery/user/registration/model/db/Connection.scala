@@ -1,4 +1,4 @@
-package com.bynder.lottery.user.registrations.model.db
+package com.bynder.lottery.user.registration.model.db
 
 import slick.jdbc.H2Profile.api._
 

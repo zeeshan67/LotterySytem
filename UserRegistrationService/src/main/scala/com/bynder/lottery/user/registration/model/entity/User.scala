@@ -1,4 +1,4 @@
-package com.bynder.lottery.user.registrations.model.entity
+package com.bynder.lottery.user.registration.model.entity
 
 import java.util.Date
 

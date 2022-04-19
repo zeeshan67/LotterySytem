@@ -4,18 +4,18 @@ import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import de.heikoseeberger.akkahttpplayjson.PlayJsonSupport
-import com.bynder.lottery.user.registrations.model.entity.User
-import com.bynder.lottery.user.registrations.utils.Serializers
-import com.bynder.lottery.user.registrations.model.entity.UserLoginRequest
-import com.bynder.lottery.user.registrations.model.db.UserRepository
+import com.bynder.lottery.user.registration.model.entity.User
+import com.bynder.lottery.user.registration.utils.Serializers
+import com.bynder.lottery.user.registration.model.entity.UserLoginRequest
+import com.bynder.lottery.user.registration.model.db.UserRepository
 import scala.util.Success
 import scala.util.Failure
-import com.bynder.lottery.user.registrations.model.entity.RoleType
+import com.bynder.lottery.user.registration.model.entity.RoleType
 import scala.concurrent._
 import ExecutionContext.Implicits.global
-import com.bynder.lottery.user.registrations.utils.Logging
+import com.bynder.lottery.user.registration.utils.Logging
 import com.bynder.lottery.user.registration.utils.TokenGeneration
-import com.bynder.lottery.user.registrations.model.entity.CreateUserRequest
+import com.bynder.lottery.user.registration.model.entity.CreateUserRequest
 import akka.http.scaladsl.server.Directives._
 
 class UserRegistrationRoutes extends PlayJsonSupport with Logging {
