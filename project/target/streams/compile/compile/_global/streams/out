@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\saniya\eclipse-workspace-new\LotterySytem\project\Build.scala:7:35: not found: type Build[0m
+[0m[[0m[31merror[0m] [0m[0mobject LotterySystemBuild extends Build {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
